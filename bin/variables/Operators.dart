@@ -59,4 +59,13 @@ void main(){
   var res1=(one>two?(one>three?one:three):(two>three?two:three));
   print("largest is $res1 among $one, $two, $three");
 
+
+  /// postfix (variable++  variable--) and prefix (++variable --variable) operators
+  int z=100;
+  print(z++); ///here print value of z=100 in background z=z+1=101
+  print(z++);   ///here print value of z=101 in background z=z+1=102
+
+  int j=10;
+  print(++j); ///here operation perform first and value change
+  print(--j);
 }
